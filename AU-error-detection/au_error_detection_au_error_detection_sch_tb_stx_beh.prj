@@ -1,0 +1,2 @@
+vhdl isim_temp "au_error_detection.vhf"
+vhdl isim_temp "system_test.vhd"

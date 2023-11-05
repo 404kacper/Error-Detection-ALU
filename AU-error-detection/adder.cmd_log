@@ -1,0 +1,61 @@
+sch2sym -intstyle ise -family spartan3e -refsym adder /home/ise/Desktop/AU-error-detection/adder.sch /home/ise/Desktop/AU-error-detection/adder.sym 
+xst -intstyle ise -ifn "/home/ise/Desktop/AU-error-detection/adder.xst" -ofn "/home/ise/Desktop/AU-error-detection/adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-vq100-4 adder.ngc adder.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o adder_map.ncd adder.ngd adder.pcf 
+par -w -intstyle ise -ol high -t 1 adder_map.ncd adder.ncd adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml adder.twx adder.ncd -o adder.twr adder.pcf 
+bitgen -intstyle ise -f adder.ut adder.ncd 
+xst -intstyle ise -ifn "/home/ise/Desktop/AU-error-detection/adder.xst" -ofn "/home/ise/Desktop/AU-error-detection/adder.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/AU-error-detection/adder.xst" -ofn "/home/ise/Desktop/AU-error-detection/adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-vq100-4 adder.ngc adder.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o adder_map.ncd adder.ngd adder.pcf 
+par -w -intstyle ise -ol high -t 1 adder_map.ncd adder.ncd adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml adder.twx adder.ncd -o adder.twr adder.pcf 
+sch2sym -intstyle ise -family spartan3e -refsym adder /home/ise/Desktop/AU-error-detection/adder.sch /home/ise/Desktop/AU-error-detection/adder.sym 
+xst -intstyle ise -ifn "/home/ise/Desktop/AU-error-detection/adder.xst" -ofn "/home/ise/Desktop/AU-error-detection/adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-vq100-4 adder.ngc adder.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o adder_map.ncd adder.ngd adder.pcf 
+par -w -intstyle ise -ol high -t 1 adder_map.ncd adder.ncd adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml adder.twx adder.ncd -o adder.twr adder.pcf 
+sch2sym -intstyle ise -family spartan3e -refsym adder /home/ise/Desktop/AU-error-detection/adder.sch /home/ise/Desktop/AU-error-detection/adder.sym 
+xst -intstyle ise -ifn "/home/ise/Desktop/AU-error-detection/adder.xst" -ofn "/home/ise/Desktop/AU-error-detection/adder.syr" 
+sch2sym -intstyle ise -family spartan3e -refsym adder /home/ise/Desktop/AU-error-detection/adder.sch /home/ise/Desktop/AU-error-detection/adder.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl adder_drc.vhf -w /home/ise/Desktop/AU-error-detection/adder.sch 
+sch2vhdl -intstyle ise -family spartan3e -tionly -w /home/ise/Desktop/AU-error-detection/adder.sch adder.vhi 
+sch2sym -intstyle ise -family spartan3e -refsym adder /home/ise/Desktop/AU-error-detection/adder.sch /home/ise/Desktop/AU-error-detection/adder.sym 
+sch2sym -intstyle ise -family spartan3e -refsym adder /home/ise/Desktop/AU-error-detection/adder.sch /home/ise/Desktop/AU-error-detection/adder.sym 
+xst -intstyle ise -ifn "/home/ise/Desktop/AU-error-detection/adder.xst" -ofn "/home/ise/Desktop/AU-error-detection/adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-vq100-4 adder.ngc adder.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o adder_map.ncd adder.ngd adder.pcf 
+par -w -intstyle ise -ol high -t 1 adder_map.ncd adder.ncd adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml adder.twx adder.ncd -o adder.twr adder.pcf 
+sch2sym -intstyle ise -family spartan3e -w -refsym adder /home/ise/Desktop/AU-error-detection/adder.sch /home/ise/Desktop/AU-error-detection/adder.sym 
+xst -intstyle ise -ifn "/home/ise/Desktop/AU-error-detection/adder.xst" -ofn "/home/ise/Desktop/AU-error-detection/adder.syr" 
+sch2sym -intstyle ise -family spartan3e -w -refsym adder /home/ise/Desktop/AU-error-detection/adder.sch /home/ise/Desktop/AU-error-detection/adder.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym adder /home/ise/Desktop/AU-error-detection/adder.sch /home/ise/Desktop/AU-error-detection/adder.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl adder_drc.vhf -w /home/ise/Desktop/AU-error-detection/adder.sch 
+xst -intstyle ise -ifn "/home/ise/Desktop/AU-error-detection/adder.xst" -ofn "/home/ise/Desktop/AU-error-detection/adder.syr" 
+sch2sym -intstyle ise -family spartan3e -w -refsym adder /home/ise/Desktop/AU-error-detection/adder.sch /home/ise/Desktop/AU-error-detection/adder.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym adder /home/ise/Desktop/AU-error-detection/adder.sch /home/ise/Desktop/AU-error-detection/adder.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl adder_drc.vhf -w /home/ise/Desktop/AU-error-detection/adder.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym adder /home/ise/Desktop/AU-error-detection/adder.sch /home/ise/Desktop/AU-error-detection/adder.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym adder /home/ise/Desktop/AU-error-detection/adder.sch /home/ise/Desktop/AU-error-detection/adder.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl adder_drc.vhf -w /home/ise/Desktop/AU-error-detection/adder.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym adder /home/ise/Desktop/AU-error-detection/adder.sch /home/ise/Desktop/AU-error-detection/adder.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym adder /home/ise/Desktop/AU-error-detection/adder.sch /home/ise/Desktop/AU-error-detection/adder.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym adder /home/ise/Desktop/AU-error-detection/adder.sch /home/ise/Desktop/AU-error-detection/adder.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl adder_drc.vhf -w /home/ise/Desktop/AU-error-detection/adder.sch 
+xst -intstyle ise -ifn "/home/ise/Desktop/AU-error-detection/adder.xst" -ofn "/home/ise/Desktop/AU-error-detection/adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-vq100-4 adder.ngc adder.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o adder_map.ncd adder.ngd adder.pcf 
+par -w -intstyle ise -ol high -t 1 adder_map.ncd adder.ncd adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml adder.twx adder.ncd -o adder.twr adder.pcf 
+sch2sym -intstyle ise -family spartan3e -w -refsym adder /home/ise/Desktop/AU-error-detection/adder.sch /home/ise/Desktop/AU-error-detection/adder.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym adder /home/ise/Desktop/AU-error-detection/adder.sch /home/ise/Desktop/AU-error-detection/adder.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym adder /home/ise/Desktop/AU-error-detection/adder.sch /home/ise/Desktop/AU-error-detection/adder.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym adder /home/ise/Desktop/AU-error-detection/adder.sch /home/ise/Desktop/AU-error-detection/adder.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl adder_drc.vhf -w /home/ise/Desktop/AU-error-detection/adder.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym adder /home/ise/Desktop/AU-error-detection/adder.sch /home/ise/Desktop/AU-error-detection/adder.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym adder /home/ise/Desktop/AU-error-detection/adder.sch /home/ise/Desktop/AU-error-detection/adder.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym adder /home/ise/Desktop/AU-error-detection/adder.sch /home/ise/Desktop/AU-error-detection/adder.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym adder /home/ise/Desktop/AU-error-detection/adder.sch /home/ise/Desktop/AU-error-detection/adder.sym 

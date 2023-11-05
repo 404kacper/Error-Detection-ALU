@@ -1,0 +1,3 @@
+vhdl work "demux4to3bit.vhf"
+vhdl work "multiplier.vhf"
+vhdl work "arthmetic_unit.vhf"

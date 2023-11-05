@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/Desktop/AU-error-detection/arthmetic_unit_arthmetic_unit_sch_tb_isim_beh.exe" -prj "/home/ise/Desktop/AU-error-detection/arthmetic_unit_arthmetic_unit_sch_tb_beh.prj" "work.arthmetic_unit_arthmetic_unit_sch_tb" 

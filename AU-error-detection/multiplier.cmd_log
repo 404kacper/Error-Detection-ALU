@@ -1,0 +1,17 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl multiplier_drc.vhf -w /home/ise/Desktop/AU-error-detection/multiplier.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl multiplier_drc.vhf -w /home/ise/Desktop/AU-error-detection/multiplier.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl multiplier_drc.vhf -w /home/ise/Desktop/AU-error-detection/multiplier.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl multiplier_drc.vhf -w /home/ise/Desktop/AU-error-detection/multiplier.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl multiplier_drc.vhf -w /home/ise/Desktop/AU-error-detection/multiplier.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl multiplier_drc.vhf -w /home/ise/Desktop/AU-error-detection/multiplier.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym multiplier /home/ise/Desktop/AU-error-detection/multiplier.sch /home/ise/Desktop/AU-error-detection/multiplier.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym multiplier /home/ise/Desktop/AU-error-detection/multiplier.sch /home/ise/Desktop/AU-error-detection/multiplier.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym multiplier /home/ise/Desktop/AU-error-detection/multiplier.sch /home/ise/Desktop/AU-error-detection/multiplier.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym multiplier /home/ise/Desktop/AU-error-detection/multiplier.sch /home/ise/Desktop/AU-error-detection/multiplier.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl multiplier_drc.vhf -w /home/ise/Desktop/AU-error-detection/multiplier.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl multiplier_drc.vhf -w /home/ise/Desktop/AU-error-detection/multiplier.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym multiplier /home/ise/Desktop/AU-error-detection/multiplier.sch /home/ise/Desktop/AU-error-detection/multiplier.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl multiplier_drc.vhf -w /home/ise/Desktop/AU-error-detection/multiplier.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl multiplier_drc.vhf -w /home/ise/Desktop/AU-error-detection/multiplier.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym multiplier /home/ise/Desktop/AU-error-detection/multiplier.sch /home/ise/Desktop/AU-error-detection/multiplier.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym multiplier /home/ise/Desktop/AU-error-detection/multiplier.sch /home/ise/Desktop/AU-error-detection/multiplier.sym 

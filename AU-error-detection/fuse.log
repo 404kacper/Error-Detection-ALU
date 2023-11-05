@@ -1,0 +1,16 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/ise/Desktop/AU-error-detection/arthmetic_unit_arthmetic_unit_sch_tb_isim_beh.exe -prj /home/ise/Desktop/AU-error-detection/arthmetic_unit_arthmetic_unit_sch_tb_beh.prj work.arthmetic_unit_arthmetic_unit_sch_tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/Desktop/AU-error-detection/full_adder.vhf" into library work
+Parsing VHDL file "/home/ise/Desktop/AU-error-detection/demux4to3bit.vhf" into library work
+Parsing VHDL file "/home/ise/Desktop/AU-error-detection/adder.vhf" into library work
+Parsing VHDL file "/home/ise/Desktop/AU-error-detection/multiplier.vhf" into library work
+Parsing VHDL file "/home/ise/Desktop/AU-error-detection/arthmetic_unit.vhf" into library work
+Parsing VHDL file "/home/ise/Desktop/AU-error-detection/arthmetic_unit_test.vhd" into library work
+Parsing VHDL file "/home/ise/Desktop/AU-error-detection/au_error_detection.vhf" into library work
+Starting static elaboration
+ERROR:HDLCompiler:432 - "/home/ise/Desktop/AU-error-detection/arthmetic_unit.vhf" Line 281: Formal <error> has no actual or default value.
+ERROR:HDLCompiler:432 - "/home/ise/Desktop/AU-error-detection/arthmetic_unit.vhf" Line 282: Formal <error_on> has no actual or default value.
+ERROR:Simulator:777 - Static elaboration of top level VHDL design unit arthmetic_unit_arthmetic_unit_sch_tb in library work failed

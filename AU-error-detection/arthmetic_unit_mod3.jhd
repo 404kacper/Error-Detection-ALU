@@ -1,0 +1,5 @@
+MODULE arthmetic_unit_mod3
+	SUBMODULE arthmetic_unit
+		INSTANCE XLXI_1
+	SUBMODULE residue_generator_mod3_3bit
+		INSTANCE XLXI_2

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/Desktop/AU-error-detection/adder.ncd
+OUTFILE=/home/ise/Desktop/AU-error-detection/adder.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4vq100
+WORKINGDIR=/home/ise/Desktop/AU-error-detection
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

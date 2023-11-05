@@ -1,0 +1,3 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl system_error_detection_drc.vhf -w /home/ise/Desktop/AU-error-detection/system_error_detection.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym system_error_detection /home/ise/Desktop/AU-error-detection/system_error_detection.sch /home/ise/Desktop/AU-error-detection/system_error_detection.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym system_error_detection /home/ise/Desktop/AU-error-detection/system_error_detection.sch /home/ise/Desktop/AU-error-detection/system_error_detection.sym 

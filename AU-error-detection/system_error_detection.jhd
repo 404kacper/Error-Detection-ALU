@@ -1,0 +1,7 @@
+MODULE system_error_detection
+	SUBMODULE arthmetic_unit
+		INSTANCE XLXI_1
+	SUBMODULE residue_generator_mod3_3bit
+		INSTANCE XLXI_2
+	SUBMODULE arthmetic_unit_mod3
+		INSTANCE XLXI_5

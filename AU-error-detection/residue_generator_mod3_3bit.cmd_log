@@ -1,0 +1,3 @@
+sch2sym -intstyle ise -family spartan3e -w -refsym residue_generator_mod3_3bit /home/ise/Desktop/AU-error-detection/residue_generator_mod3_3bit.sch /home/ise/Desktop/AU-error-detection/residue_generator_mod3_3bit.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl residue_generator_mod3_3bit_drc.vhf -w /home/ise/Desktop/AU-error-detection/residue_generator_mod3_3bit.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym residue_generator_mod3_3bit /home/ise/Desktop/AU-error-detection/residue_generator_mod3_3bit.sch /home/ise/Desktop/AU-error-detection/residue_generator_mod3_3bit.sym 

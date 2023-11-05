@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family spartan3e -refsym au_adder /home/ise/Desktop/AU-error-detection/au_adder.sch /home/ise/Desktop/AU-error-detection/au_adder.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl au_adder_drc.vhf -w /home/ise/Desktop/AU-error-detection/au_adder.sch 

@@ -1,0 +1,17 @@
+sch2sym -intstyle ise -family spartan3e -w -refsym arthmetic_unit /home/ise/Desktop/AU-error-detection/arthmetic_unit.sch /home/ise/Desktop/AU-error-detection/arthmetic_unit.sym 
+xst -intstyle ise -ifn "/home/ise/Desktop/AU-error-detection/arthmetic_unit.xst" -ofn "/home/ise/Desktop/AU-error-detection/arthmetic_unit.syr" 
+sch2sym -intstyle ise -family spartan3e -w -refsym arthmetic_unit /home/ise/Desktop/AU-error-detection/arthmetic_unit.sch /home/ise/Desktop/AU-error-detection/arthmetic_unit.sym 
+xst -intstyle ise -ifn "/home/ise/Desktop/AU-error-detection/arthmetic_unit.xst" -ofn "/home/ise/Desktop/AU-error-detection/arthmetic_unit.syr" 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl arthmetic_unit_drc.vhf -w /home/ise/Desktop/AU-error-detection/arthmetic_unit.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym arthmetic_unit /home/ise/Desktop/AU-error-detection/arthmetic_unit.sch /home/ise/Desktop/AU-error-detection/arthmetic_unit.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl arthmetic_unit_drc.vhf -w /home/ise/Desktop/Au-copy/AU-error-detection/arthmetic_unit.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym arthmetic_unit /home/ise/Desktop/AU-error-detection/arthmetic_unit.sch /home/ise/Desktop/AU-error-detection/arthmetic_unit.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl arthmetic_unit_drc.vhf -w /home/ise/Desktop/AU-error-detection/arthmetic_unit.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl arthmetic_unit_drc.vhf -w /home/ise/Desktop/AU-error-detection/arthmetic_unit.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl arthmetic_unit_drc.vhf -w /home/ise/Desktop/AU-error-detection/arthmetic_unit.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl arthmetic_unit_drc.vhf -w /home/ise/Desktop/AU-error-detection/arthmetic_unit.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym arthmetic_unit /home/ise/Desktop/AU-error-detection/arthmetic_unit.sch /home/ise/Desktop/AU-error-detection/arthmetic_unit.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym arthmetic_unit /home/ise/Desktop/AU-error-detection/arthmetic_unit.sch /home/ise/Desktop/AU-error-detection/arthmetic_unit.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym arthmetic_unit /home/ise/Desktop/AU-error-detection/arthmetic_unit.sch /home/ise/Desktop/AU-error-detection/arthmetic_unit.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym arthmetic_unit /home/ise/Desktop/AU-error-detection/arthmetic_unit.sch /home/ise/Desktop/AU-error-detection/arthmetic_unit.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym arthmetic_unit /home/ise/Desktop/AU-error-detection/arthmetic_unit.sch /home/ise/Desktop/AU-error-detection/arthmetic_unit.sym 

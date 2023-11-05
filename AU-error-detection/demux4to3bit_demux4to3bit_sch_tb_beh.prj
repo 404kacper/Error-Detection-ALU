@@ -1,0 +1,2 @@
+vhdl work "demux4to3bit.vhf"
+vhdl work "demux4to3_test.vhd"

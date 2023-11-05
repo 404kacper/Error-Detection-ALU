@@ -1,0 +1,2 @@
+vhdl isim_temp "demux4to3bit.vhf"
+vhdl isim_temp "demux4to3_test.vhd"

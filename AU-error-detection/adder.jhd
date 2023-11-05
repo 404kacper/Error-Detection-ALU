@@ -1,0 +1,5 @@
+MODULE adder
+	SUBMODULE full_adder
+		INSTANCE XLXI_4
+	SUBMODULE full_adder
+		INSTANCE XLXI_5

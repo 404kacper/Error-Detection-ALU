@@ -1,0 +1,5 @@
+MODULE arthmetic_unit
+	SUBMODULE multiplier
+		INSTANCE XLXI_2
+	SUBMODULE adder
+		INSTANCE XLXI_10

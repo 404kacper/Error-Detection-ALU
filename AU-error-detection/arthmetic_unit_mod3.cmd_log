@@ -1,0 +1,6 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl arthmetic_unit_mod3_drc.vhf -w /home/ise/Desktop/AU-error-detection/arthmetic_unit_mod3.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym arthmetic_unit_mod3 /home/ise/Desktop/AU-error-detection/arthmetic_unit_mod3.sch /home/ise/Desktop/AU-error-detection/arthmetic_unit_mod3.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym arthmetic_unit_mod3 /home/ise/Desktop/AU-error-detection/arthmetic_unit_mod3.sch /home/ise/Desktop/AU-error-detection/arthmetic_unit_mod3.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym arthmetic_unit_mod3 /home/ise/Desktop/AU-error-detection/arthmetic_unit_mod3.sch /home/ise/Desktop/AU-error-detection/arthmetic_unit_mod3.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym arthmetic_unit_mod3 /home/ise/Desktop/AU-error-detection/arthmetic_unit_mod3.sch /home/ise/Desktop/AU-error-detection/arthmetic_unit_mod3.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym arthmetic_unit_mod3 /home/ise/Desktop/AU-error-detection/arthmetic_unit_mod3.sch /home/ise/Desktop/AU-error-detection/arthmetic_unit_mod3.sym 

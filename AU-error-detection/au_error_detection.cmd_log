@@ -1,0 +1,12 @@
+sch2sym -intstyle ise -family spartan3e -w -refsym au_error_detection /home/ise/Desktop/AU-error-detection/au_error_detection.sch /home/ise/Desktop/AU-error-detection/au_error_detection.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym au_error_detection /home/ise/Desktop/AU-error-detection/au_error_detection.sch /home/ise/Desktop/AU-error-detection/au_error_detection.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl au_error_detection_drc.vhf -w /home/ise/Desktop/AU-error-detection/au_error_detection.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym au_error_detection /home/ise/Desktop/AU-error-detection/au_error_detection.sch /home/ise/Desktop/AU-error-detection/au_error_detection.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym au_error_detection /home/ise/Desktop/AU-error-detection/au_error_detection.sch /home/ise/Desktop/AU-error-detection/au_error_detection.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl au_error_detection_drc.vhf -w /home/ise/Desktop/AU-error-detection/au_error_detection.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym au_error_detection /home/ise/Desktop/AU-error-detection/au_error_detection.sch /home/ise/Desktop/AU-error-detection/au_error_detection.sym 
+xst -intstyle ise -ifn "/home/ise/Desktop/AU-error-detection/au_error_detection.xst" -ofn "/home/ise/Desktop/AU-error-detection/au_error_detection.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-vq100-4 au_error_detection.ngc au_error_detection.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o au_error_detection_map.ncd au_error_detection.ngd au_error_detection.pcf 
+par -w -intstyle ise -ol high -t 1 au_error_detection_map.ncd au_error_detection.ncd au_error_detection.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml au_error_detection.twx au_error_detection.ncd -o au_error_detection.twr au_error_detection.pcf 

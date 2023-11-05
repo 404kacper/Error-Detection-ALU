@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -w -refsym demux4to3bit /home/ise/Desktop/AU-error-detection/demux4to3bit.sch /home/ise/Desktop/AU-error-detection/demux4to3bit.sym 
